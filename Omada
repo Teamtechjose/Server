@@ -1,0 +1,37 @@
+#!/bin/bash
+
+echo "Installing Omada Cloud by Arclem"
+
+echo "Updating apt package"
+sudo apt-get -y update 
+
+echo "installing mongodb"
+sudo apt-get -y install mongodb
+
+echo "installling jsvc"
+sudo apt-get -y install jsvc
+
+echo "installing openjdk-8-jdk"
+sudo apt-get -y install openjdk-8-jdk
+
+echo "this will update config java. please select 2"
+sudo update-alternatives --config java
+
+echo "installing gdebi-core"
+sudo apt-get -y install gdebi-core
+
+echo "downloading omada sdn controller"
+cd
+
+#sudo wget -O omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb "https://firebasestorage.googleapis.com/v0/b/teamtech-6e9b5.appspot.com/o/Omada_SDN_Controller_v5.12.7_Linux_x64.deb?alt=media&token=4b8d91ae-a723-4af3-9186-ed8dcc4dc922&_gl=1*1f8i5xx*_ga*NzkyNDM5OTUxLjE2OTk0NDY3MTc.*_ga_CW55HF8NVT*MTY5OTQ0NjcxOC4xLjEuMTY5OTQ0NzUxOS4zMC4wLjA"
+
+sudo wget https://static.tp-link.com/upload/software/2023/202309/20230920/Omada_SDN_Controller_v5.12.7_Linux_x64.deb
+
+
+echo "now installing sdn controller"
+cd
+#sudo -i gdebi -n omada_v5.12.7_linux_x64_20230905160956_1695177653350.deb
+
+sudo -i gdebi -n Omada_SDN_Controller_v5.12.7_Linux_x64.deb
+
+
