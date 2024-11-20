@@ -24,10 +24,8 @@ echo "downloading omada sdn controller"
 
 cd
 
-#sudo wget -O https://firebasestorage.googleapis.com/v0/b/omadaskywalker.appspot.com/o/Omada_SDN_Controller_v5.14.32.3_linux_x64.deb?alt=media&token=f198709b-4d73-46c8-a180-d3fa004b8e62"
-
+#sudo wget -O https://firebasestorage.googleapis.com/v0/b/upgradeteamtech.appspot.com/o/LATEST%2FOmada_SDN_Controller_v5.14.32.3_linux_x64.deb?alt=media&token=0bab9726-180c-4906-bf12-0d7020bd4025"
 sudo wget https://static.tp-link.com/upload/software/2024/202411/20241101/Omada_SDN_Controller_v5.14.32.3_linux_x64.deb
-
 
 echo "now installing sdn controller"
 cd
