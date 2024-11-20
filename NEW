@@ -21,7 +21,6 @@ echo "installing gdebi-core"
 sudo apt-get -y install gdebi-core
 
 echo "downloading omada sdn controller"
-
 cd
 
 #sudo wget -O https://firebasestorage.googleapis.com/v0/b/upgradeteamtech.appspot.com/o/LATEST%2FOmada_SDN_Controller_v5.14.32.3_linux_x64.deb?alt=media&token=0bab9726-180c-4906-bf12-0d7020bd4025"
