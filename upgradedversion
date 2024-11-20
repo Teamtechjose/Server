@@ -23,14 +23,14 @@ sudo apt-get -y install gdebi-core
 echo "downloading omada sdn controller"
 cd
 
-#sudo wget -O Omada_SDN_Controller_v5.14.26.1_linux_x64.deb
+#sudo wget -O Omada_SDN_Controller_v5.14.32.3_linux_x64.deb
 "https://firebasestorage.googleapis.com/v0/b/omadaskywalker.appspot.com/o/Omada_SDN_Controller_v5.14.32.3_linux_x64.deb?alt=media&token=f198709b-4d73-46c8-a180-d3fa004b8e62"
 
-sudo wget https://static.tp-link.com/upload/software/2024/202407/20240710/Omada_SDN_Controller_v5.14.26.1_linux_x64.deb
+sudo wget https://static.tp-link.com/upload/software/2024/202411/20241101/Omada_SDN_Controller_v5.14.32.3_linux_x64.deb
 
 
 echo "now installing sdn controller"
 cd
-#sudo -i gdebi -n Omada_SDN_Controller_v5.14.26.1_linux_x64.deb
+#sudo -i gdebi -n Omada_SDN_Controller_v5.14.32.3_linux_x64.deb
 
-sudo -i gdebi -n Omada_SDN_Controller_v5.14.26.1_linux_x64.deb
+sudo -i gdebi -n Omada_SDN_Controller_v5.14.32.3_linux_x64.deb
